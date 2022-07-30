@@ -26,7 +26,7 @@ try:
         line = file.readline()
 
         while line != "":
-            value = int(line.split(n)[0])
+            value = int(line.split('\n')[0])
             factorize(value)
             line = file.readline()
 except:
